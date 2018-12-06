@@ -7,10 +7,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #6A0032;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BlurController">
+<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #1a8cff" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BlurController">
    <children>
-      <Button fx:id="btnBlur" layoutX="67.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickbtnBlur" prefHeight="43.0" prefWidth="171.0" style="-fx-background-color: #FFF;" text="BLUR" />
-      <Text fx:id="txtAlumni" fill="WHITE" layoutX="105.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALUMNI APP">
+      <Button fx:id="btnBlur" layoutX="67.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickbtnBlur" prefHeight="43.0" prefWidth="171.0" style="-fx-background-color: #FFF;" text="DIFUMINAR/BLUR" />
+      <Text fx:id="txtAlumni" fill="WHITE" layoutX="105.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primer APP">
          <font>
             <Font name="AvenirLTStd-Book" size="49.0" />
          </font>
@@ -18,7 +18,7 @@
       <Button fx:id="btnCerrar" layoutX="273.0" layoutY="258.0" mnemonicParsing="false" onAction="#salir" prefHeight="43.0" prefWidth="171.0" styleClass="mybutton" stylesheets="@../application/application.css" text="CERRAR" />
       <ImageView fx:id="imageView" fitHeight="133.0" fitWidth="200.0" layoutX="150.0" layoutY="100.0">
          <image>
-            <Image url="@../application/imagenalumnos.jpg" />
+            <Image url="@../application/cochewrc.jpg" />
          </image>
       </ImageView>
    </children>
