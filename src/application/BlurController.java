@@ -25,6 +25,10 @@ public class BlurController {
 		imageView.setEffect(new GaussianBlur(30));
 	}
 	
+	public void unBlur() {
+		imageView.setEffect(null);
+	}
+	
 	public void salir() {
 		System.exit(0);
 	}

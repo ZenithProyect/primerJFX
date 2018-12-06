@@ -18,13 +18,13 @@ public class Main extends Application {
 	public void start(Stage stage) {
 		
 		//primero cargamos la vista fxml en el FXMLLoader
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("/vistas/VistaPrincipal.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/vista/VistaPrincipal.fxml"));
 		
 		try {
 			//Sobre el atributo panel mypane cargamos el FxmlLoader
 			mypane = (AnchorPane) loader.load();
 			//Asignamos al stage el titulo, y la escena con el panel mypane y lo mostramos
-			stage.setTitle("PRIMERA APLICACION");
+			stage.setTitle("PRIMERA APP");
 			stage.setScene(new Scene(mypane));
 			stage.show();
 			
